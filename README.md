@@ -66,13 +66,13 @@ And then attach it to the `PouchDB` object:
 ```js
 var PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
-PouchDB.plugin(require('pouchdb-live-find'));
+PouchDB.plugin(require('pouchdb-live-find--next'));
 ```
 
 ## Basic Usage
 
 ```js
-var db = new PouchDB('live-find');
+var db = new PouchDB('live-find--next');
 
 // This assumes you have created your find index and seeded your initial documents. 
 
@@ -165,7 +165,7 @@ liveFeed.on('update', function(update, aggregate) {
 
 ## Optimizing Your Build
 
-`pouchdb-find` and `pouchdb-live-find` share several dependencies. You can likely reduce your build size if you build them together using a tool like Browserify or Webpack.
+`pouchdb-find` and `pouchdb-live-find--next` share several dependencies. You can likely reduce your build size if you build them together using a tool like Browserify or Webpack.
 
 ## Release History
 
