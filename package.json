@@ -1,6 +1,6 @@
 {
   "name": "@chrispahm/pouchdb-live-find",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Live PouchDB queries that update automatically as changes come in!",
   "main": "./lib/index.js",
   "module": "./dist/pouchdb.live-find.esm.js",

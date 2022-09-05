@@ -1,8 +1,21 @@
-# PouchDB LiveFind
+# PouchDB LiveFind Next
 
-[![Build Status](https://travis-ci.org/colinskow/pouchdb-live-find.png?branch=master)](https://travis-ci.org/colinskow/pouchdb-live-find)
+*Live PouchDB queries that update automatically as changes come in!*
 
-**Live PouchDB queries that update automatically as changes come in!**
+---
+
+## Why "Next": 
+ This fork consolidates some of the fixes of other forks to have an up to date and usable version, taking CouchDB changes into account.
+
+**Pull-Requests are wanted.**
+
+*Note:* Pagination options might not work, sorting is now dependant on PouchDB/CouchDB.
+
+---
+
+---
+
+Original:
 
 ## Why
 
@@ -31,7 +44,7 @@ To use this plugin in the browser, include it after `pouchdb.js` and `pouchdb.fi
 ```html
 <script src="pouchdb.js"></script>
 <script src="pouchdb.find.js"></script>
-<script src="pouchdb.live-find.js"></script>
+<script src="pouchdb.live-find.min.js"></script>
 ```
 
 You can download the necessary packages from Bower:
