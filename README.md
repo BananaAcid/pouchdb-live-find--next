@@ -50,7 +50,7 @@ To use this plugin in the browser, include it after `pouchdb.js` and `pouchdb.fi
 You can download the necessary packages from Bower:
 
 ```
-bower install pouchdb pouchdb-find pouchdb-live-find
+bower install pouchdb pouchdb-find git@github.com:BananaAcid/pouchdb-live-find--next.git
 ```
 
 #### In Node.js/Browserify
@@ -58,7 +58,7 @@ bower install pouchdb pouchdb-find pouchdb-live-find
 Or to use it in Node.js, just npm install the packages:
 
 ```
-npm install pouchdb pouchdb-find pouchdb-live-find
+npm install pouchdb pouchdb-find BananaAcid/pouchdb-live-find--next
 ```
 
 And then attach it to the `PouchDB` object:
