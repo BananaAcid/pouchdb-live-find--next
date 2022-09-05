@@ -1,7 +1,5 @@
 # PouchDB LiveFind
 
-**This fork of PouchDB LiveFind has updated dependencies and switched to rollup for bundling. Browser tests are unfortunately not working for now...**
-
 [![Build Status](https://travis-ci.org/colinskow/pouchdb-live-find.png?branch=master)](https://travis-ci.org/colinskow/pouchdb-live-find)
 
 **Live PouchDB queries that update automatically as changes come in!**
