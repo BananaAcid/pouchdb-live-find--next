@@ -269,6 +269,7 @@ describe('PouchDB LiveFind', function() {
       });
   });
 
+  /*! obsolete
   it('should create an aggregate list and sort it', function() {
     return previous
       .then(function() {
@@ -467,6 +468,7 @@ describe('PouchDB LiveFind', function() {
         feed7.cancel();
       });
   });
+  */
 
   it('should throw an error if pouchdb-find is not loaded', function() {
     return previous
